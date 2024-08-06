@@ -35,5 +35,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-#ignore firebase.js to prevent API key exposure
-inventory_management/firebase.js
+node_modules
+.next
+.env.local
